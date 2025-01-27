@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #c3cbd5;
 }
 
 #tentacles {
@@ -23,6 +23,21 @@ body {
     display: flex;
 }
 
+#introduction {
+    padding: 1%;
+}
+
+#stats-container-parent {
+    padding: 1%;
+}
+
+stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
@@ -34,6 +49,10 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+}
+
+#our-games-container {
+    padding: 1%;
 }
 
 #games-container {
@@ -73,3 +92,13 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#list-title {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-block: 1%;
+}
+
